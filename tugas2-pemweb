@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonial Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="testimonial-section container-CSS">
+  <h2>Testimonial</h2>
+  <p class="text-secondary">Don't just take our word for it - see what actual users of our service have to say about their experience.</p>
+
+<div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-ride="carousel">
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<div class="row justify-content-center g-4">
+<div class="col-md-3">
+<div class="testimonial-card">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio voluptas obcaecati.</p>
+<div class="stars">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star"></i>
+<i class="bi bi-star"></i>
+</div>
+<img src="....." alt="user">
+<h6 class="mt-2">Mbahooh</h6>
+<small class="text-secondary">Photographer</small>
+</div>
+</div>
+          
+<div class="col-md-3">
+<div class="testimonial-card">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio voluptas obcaecati.</p>
+<div class="stars">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star"></i>
+<i class="bi bi-star"></i>
+<i class="bi bi-star"></i>
+</div>
+<img src="..." alt="user">
+<h5 class="mt-2">Testing</h5>
+<small class="text-secondary">Tugas</small>
+</div>
+</div>
+<div class="col-md-3">
+<div class="testimonial-card">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio voluptas obcaecati.</p>
+<div class="stars">
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-half"></i>
+<i class="bi bi-star"></i>
+</div>
+<img src="..." alt="user">
+<h5 class="mt-2">Testing</h5>
+<small class="text-secondary">Tugas</small>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+Unutk CSSnya 
+
+body {
+  background-color: #1A1A1A;
+  background-image: radial-gradient(circle at 70% 80%, rgba(95,48,248,0.3), rgba(252,136,103,0.15), transparent 70%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.testimonial-section {
+  padding: 80px 0; 
+}
+
+.testimonial-section h2 {
+  font-weight: bold;
+  background: linear-gradient(90deg, #5F30F8, #FC8867);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;       
+  margin-left: 30px;      
+}
+
+.testimonial-section p {
+  color: #aaa;
+  text-align: left;      
+  margin-left: 30px;
+  max-width: 600px;       
+}
+
+.testimonial-card {
+  background: rgba(33,33,33,0.6);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  min-height: 320px;
+  margin-top: 40px;  
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.stars {
+  color: #ffcc00;
+  margin: 10px 0;
+}
